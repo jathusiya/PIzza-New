@@ -1,0 +1,296 @@
+body
+{
+	background:url(card2.jpg);
+}
+.header
+{
+	position:fixed;
+	z-index: 1;
+	top:0px;
+	margin: 0;
+	padding:0;
+	width:100%;
+	height: 40px;
+	background:#fff;
+	opacity:1;
+}
+
+.logo{
+	width:50px;
+	height: 50px;
+	background: url(LOG.JPG);
+	background-size: cover;
+	float: left;
+	opacity: 1;
+}
+.delivery
+{
+	width: 200px;
+	height: 50px;
+	background: red;
+	float:right;
+	margin-right:200px;
+	opacity: 1;
+}
+.delivery h3
+{
+	font-family: Engravers MT;
+	color: #fff;
+	font-size: 20px;
+	margin-top:5px;
+	margin-bottom: 5px;
+	margin-left: 12px;
+}
+nav
+{
+	position:fixed;
+	z-index: 1;
+    top:50px;
+	margin:0;
+	width:100%;
+	height:40px;
+    background:green;
+    box-sizing: border-box;
+    opacity: 0.9;
+}
+
+nav ul
+{
+	float: left;
+	margin:0;
+	padding:0;
+	display: flex;
+}
+nav ul li
+{
+	list-style: none;
+}
+nav ul li a
+{
+	line-height:40px;
+	color:white;
+	padding-left:82px;
+	padding-right:82px; 
+	padding-top: 11px;
+	padding-bottom: 11px;
+	font-size: 15px;
+	font-family: Adobe Garamond Pro Bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .8s;
+	
+}
+nav ul li a:hover
+{
+	color:black;
+	background:white;
+}
+.zz
+{
+margin-top:50px;
+width:100%;
+height:300px;
+margin-bottom:opx;
+background:url(card1.jpg);
+
+}	
+.zz .z1
+{
+margin-top:80px;	
+}
+
+.zz .az
+{
+width:500px;
+height:45px;
+margin-left:400px;
+margin-top:5px;	
+}
+
+.zzz
+{
+	height:250px;
+	background:;
+	margin-top:0px;
+}
+.zzz .zzz1
+{
+	font-size:24px;
+	text-shadow:1;
+	margin-left:50px;
+}
+.zzz h2
+{
+	margin-left:50px;
+	font-size:30px;
+}
+.zz1{
+	width:50%;
+	height:40px;
+	margin-left:50px;
+}
+.zz3
+{
+
+	margin-left:550px;
+	height:35px;
+}
+.zz3:hover
+{
+	background:red;
+}
+.zz4:hover
+{
+	background:red;
+}
+.zz4
+{
+	height:35px;
+}
+
+.footer
+{
+
+	width:100%;
+	height:400px;
+	margin-bottom:0px;
+	background:rgba(0,0,0,.8);
+	
+}
+.box20
+{
+	width:33%;
+	height: 400px;
+	/*background-color:#262627;*/
+	float: left;
+	opacity: 0.8;
+	
+
+}
+.box21
+{
+	width:42%;
+	height: 400px;
+	
+	float: left;
+	opacity: 0.8;
+	
+
+}
+
+.box22
+{
+	width:25%;
+	height: 400px;
+	/*background-color:red;*/
+	float:right;
+	opacity: 0.8;
+	
+
+}
+.box21 input[type="text"]
+{
+	margin-left: 30px;
+	margin-bottom: 6px;
+	padding-left:10px;
+	width:40%;
+	height:50px;
+	border: none;
+	outline: none;
+	background:rgba(0,0,0,.7);
+	color:white;
+
+	
+
+}
+.box21 textarea
+{
+	margin-left: 30px;
+	margin-bottom: 6px;
+	padding-left: 10px;
+	border: none;
+	outline: none;
+	background:rgba(0,0,0,.7);
+	color: white;
+	width:90%;
+}
+.box21 input[type="submit"]
+
+{
+	margin-left: 30px;
+	margin-bottom: 6px;
+	padding-left:20px;
+	width:60%;
+	height:50px;
+	border: none;
+	outline: none;
+	background:#00ff66;
+	color:white;
+
+}
+.box21 h1
+{
+	padding-left:25px;
+	padding-top:50px;
+	padding-bottom: 20px;
+	color:white;
+	font-size:16px;
+	font-family:verdana;
+}
+.box22 h1
+{
+	font-size:16px;
+	color:white;
+	padding-top:50px;
+	padding-left:40px;
+	padding-bottom: -30px;
+	font-family:verdana;
+	
+}
+.box22 p
+{
+	
+	padding-left:40px;
+	padding-top:-30px;
+	font-family:verdana;
+	
+}
+.box22 p a
+{
+	text-decoration: none;
+	color:#33ffcc;
+}
+.box22 p a :hover
+{
+	color:#ff9933;
+}
+.box22 img
+{
+	width:100%;
+	height: 160px;
+}
+.box20 h1
+{
+	font-size:16px;
+	color:white;
+	padding-top:50px;
+	padding-left:40px;
+	padding-bottom: -30px;
+	font-family:verdana;
+	
+}
+.box20 p
+{
+	color:#33ffcc;
+	padding-left:40px;
+	padding-top:-30px;
+	font-family:verdana;
+	
+}
+
+.box20  p img
+{
+	width:15%;
+	height:15%;
+	margin-bottom:-15px;
+}

@@ -1,0 +1,70 @@
+<script src="https://kit.fontawesome.com/yourcode.js"></script>
+<!--Get your code at fontawesome.com-->
+</head>
+<body>
+
+<i class="fas fa-band-aid"></i>
+<i class="fas fa-cat"></i>
+<i class="fas fa-dragon"></i>
+<i class="far fa-clock"></i>
+<i class="fas fa-clock"></i>
+
+</body>
+</html>
+
+
+.slidebar{
+	position: fixed;
+	left: 0;
+	width: 250px;
+	height: 100%;
+	background-color: #042331;
+	left:-250px;
+	transition: all;
+}
+.slidebar header{
+	font-size:22px;
+	text-align:center;
+	line-height:50px;
+	background:green;
+	
+}
+.slidebar ul a{
+	
+	height:100%;
+	width:100%;
+	line-height:50px;
+	font-size:20px;
+	color:white;
+	padding-left:40px;
+	box-sizing:border-box;
+
+}
+ul li:hover a{
+		padding-left:20px;
+}
+.slidebar ul a i{
+}	
+#check{
+	display=none;
+}
+label #btn{
+	position:absolute;
+	cursor:pointer;
+	left:10px;
+	background:red;
+	color:pink;
+	top:0px;
+    border-radius:0px;
+    padding:12px 20px;
+    background-image:url(menu.png);
+}
+
+#check:checked ~ .slidebar{
+left:0;
+}
+	#check:checked ~ label #btn{
+		left:250px;
+		opacity:0;
+	}
+	

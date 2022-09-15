@@ -1,0 +1,167 @@
+<html>
+<head>
+<title> Register</title>
+<link rel="stylesheet" type="text/css" href="REGISTER.css">
+</head>
+<body>
+
+<div class="header">
+<div class="logo"> </div>
+<div class="delivery">
+    <h3> <b><CENTER>online delivery </CENTER></b></h3>
+			</div>
+			</div>
+			<nav>
+		<ul>
+		 <li><a href="HOME.html"><b>HOME</b></a></li>
+		   <li><a href="MENU.html"><b>MANU</b></a></li>
+		   <li><a href="STORES.html"><b>STORES</b></a></li>
+		   <li><a href="LOGIN.html"><b>LOGIN</b></a></li>
+		   <li><a href="REGISTER.html"><b>REGISTER</b></a></li>
+		   <li><a href="CART(0).html"><b>CARD(0)</b></a></li>
+		   
+	    </ul>
+	</nav>
+	<script>
+	 function validate()
+    {
+        var firstname=document.getElementById("uname");
+        var Password=document.getElementById("pass");
+        var RepeatPassword=document.getElementById("pass1");
+        var postcode=document.getElementById("pc");
+        var streetaddress=document.getElementById("id");
+
+        if(postcode.value==null || postcode.value=="" )
+        {
+            alert("Enter the postcode");
+            return false;
+        }
+        if(streetaddress.value==null || streetaddress.value=="" )
+        {
+            alert("Enter the Id streetaddress");
+            return false;
+        }
+
+        if(firstname.value==null || firstname.value=="" )
+        {
+            alert("Enter the Username");
+            return false;
+        }
+        else if( Password.value==null || Password.value=="" )
+        {
+            alert("Enter the Password");
+            return false;
+        }
+      
+
+         if(Password.value.trim().length<5)
+        {
+            alert("Password is too short");
+            return false;
+        }
+   if(Password.value != RepeatPassword.value)
+        {
+            alert("Password not match");
+            return false;
+        }
+
+        if(firstname.value !='' && Password.value !=''&&  RepeatPassword.value !='' && Postcode.value !='' && streetaddress.value != '')
+        {
+            alert(" successfully Registered");
+        }
+      
+
+
+    }
+</script>
+
+
+<div class="ud2">
+</div>
+<div class="ud">
+<form action="" method="post" onsubmit="return validate()">
+<fieldset class="use1">
+ <h2><b>Register</b> </h2>
+<legend class="user">
+     <nav>
+		<ul>
+		 <li><a href="LOGIN.html"><b>LOGIN</b></a></li>
+		   <li><a href="REGISTER.html"><b>REGISTER</b></a>
+		   </ul>
+		  </nav> 
+		   
+		   </legend>
+		   <fieldset class="use2">
+<h1>SIGN IN DETAILS</h1>
+    E-mail*&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp:<input type="email" name="tex" ></br></br>
+    Password*&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp:<input type="password" name="pass"></br></br>
+Repeat
+psssword*&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp :<input type="password" name="pass1"> </br></br>
+
+</fieldset>
+<fieldset class="use3">
+<h1>A LITTLE ABOUT YOU</h1>
+    DOB*&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp:<input type="DOB" name="te" ></br></br>
+    Gender*&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp : <input type="radio" value="male">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp <input type="radio" value="female"></br></br>
+</fieldset>
+<fieldset class="use4">
+<h1>BILLING ADDRESS</h1>
+    FIRST NAME* &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp : <input type="DOB" id="urname" ></br></br>
+    LAST NAME* &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp: <input type="text" id="pas"></br></br>
+	DOOR NUMBER* &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp : <INPUT TYPE="text" name="drno"></br></br>
+	STREET ADDRESS* &nbsp &nbsp&nbsp &nbsp : <input type="text" id="id"></br></br>
+	ADDRESS LINE1* &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp: <input type="text" name="al"></br></br>
+	CITY* &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp :<select id="seel"  >
+	<option>SriLanka</option>
+	<option>India</option>
+	<option>chana</option>
+	<option>London</option>
+	<option>swissland</option>
+	</select></br></br>
+	POST CODE* &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp: <input type="text" id="pc"></br></br>
+</fieldset>
+
+ <input type="submit"  value="REGISTER">
+</form>
+         
+</div>
+
+</div>
+<div class="footer">
+       <div class="box20">
+       	<h1>Delivery Office</h1>
+       		<p>251 south 27th street;<br>
+       			kks 721 jaffna 1009.<br><br>
+       			<img src="033.png"> 021-456678<br><br><br>
+       			
+       			<img src="030.png"> gogo34@gmail.com<br><br><br>
+       			monday-friday&nbsp &nbsp &nbsp 8.00-24.00<br>
+			saturday &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 01.00-24.00<br>
+			sunday   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 1.00-24.00<br></p>
+
+            </div>
+       <div class="box21">
+<h1> Contact</h1>
+       	<form>
+       		<input type="text" placeholder="name" > <input type="text" placeholder="email" >
+       		<br><br><textarea rows="5" cols="50"> message</textarea>
+       		<br><br><input type="submit" value="send message">
+       	</form>
+       </div>
+       <div class="box22">
+       	<h1>Useful links</h1>
+       	<p>
+       		<a href="jathu.html"><b>HOME</b></a><br>
+       		<a href="MENU.html"><b>MANU</b></a><br>
+       		<a href="STORES.html"><b>STORES</b></a><br>
+       		<a href="LOGIN.html"><b>LOGIN</b></a><br>
+       		<a href="REGISTER.html"><b>REGISTER</b></a><br>
+       		<a href="CARD(0).html"><b>CARD(0)</b></a><br>
+       	</p>
+       	<img src="028.png">
+       </div>
+   </div>
+	
+
+</body>
+</html>
